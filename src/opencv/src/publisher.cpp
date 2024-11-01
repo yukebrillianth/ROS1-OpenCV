@@ -140,7 +140,6 @@ int main(int argc, char **argv)
             for (size_t i = 0; i < contours.size(); i++)
             {
                 double area = contourArea(contours[i]);
-                cout << "Area: " << area << endl;
 
                 if (area > largestArea && area < 4000.0)
                 {
@@ -161,7 +160,6 @@ int main(int argc, char **argv)
 
                 // Posisi bola
                 Point2f ballPosition(mX / mArea, mY / mArea);
-                cout << startBallPosition.x << ", " << startBallPosition.y << endl;
                 circle(frame, ballPosition, 3, Scalar(0, 0, 255), -1);
 
                 Point2f circleLine;
