@@ -1,4 +1,4 @@
-# ROS 1 Turtlesim Writing "XAVIERA"
+# ROS 1 OpenCV Turtle Simulator
 > Name: Yuke Brilliant Hestiavin <br>
 > Departement: Computer Engineering <br>
 > Nrp: 5024241016
@@ -12,9 +12,9 @@ This project is related to the task as an intern software engineer in the Roboti
 Clone this repo
 
 ```bash
-git clone https://github.com/yukebrillianth/ROS1-Turtle-Xaviera.git turtle-name
+git clone https://github.com/yukebrillianth/ROS1-OpenCV.git ros-opencv
 
-cd turtle-name
+cd ros-opencv
 ```
 
 Build with catkin_make
