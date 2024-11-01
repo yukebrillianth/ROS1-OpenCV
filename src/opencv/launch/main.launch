@@ -1,0 +1,4 @@
+<launch>
+    <node name="opencv_pub" pkg="opencv" type="opencv_pub" output="screen" />
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen" />
+</launch>
